@@ -6,10 +6,12 @@ body {
 }
 
 h1 {
+    position: relative;
     font-size: 5.6rem;
     margin: 50px auto 0 auto;
     font-family: 'Kaushan Script', Satisfy, Sacramento, cursive;
     color: #40514e;
+    z-index: 10;
 }
 
 h2 {
@@ -91,6 +93,8 @@ div {
 
 #subtitle {
     font-weight: normal;
+    position: relative;
+    z-index: 10;
 }
 
 #top_container {
