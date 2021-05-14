@@ -1,0 +1,138 @@
+body {
+    margin: 0;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+    font-weight: bold;
+}
+
+h1 {
+    font-size: 5.6rem;
+    margin: 50px auto 0 auto;
+    font-family: 'Kaushan Script', Satisfy, Sacramento, cursive;
+    color: #40514e;
+}
+
+h2 {
+    font-size: 2rem;
+}
+
+h2, h3 {
+    font-family: 'Montserrat', sans-serif;
+    color: #40514e;
+}
+
+h3, a {
+    color: #11999e
+}
+
+hr {
+    border-style: none;
+    border-top-style: dotted;
+    color: #30e3ca;
+    width: 10%;
+    border-width: 7px;
+}
+
+div {
+    margin: 100px auto;
+}
+
+.skill-row{
+    margin: 100px auto;
+    width: 50%;
+    text-align: left;
+    line-height: 2
+}
+
+.contact-me {
+    line-height: 2;
+}
+
+.bottom-container {
+    background-color: #a6d6d6;
+    margin-bottom: 0;
+    padding: 50px;
+}
+
+.footer-link {
+    margin: auto 10px;
+    color: #907fa4;
+}
+
+.btn {
+   -webkit-border-radius: 41px;
+   -moz-border-radius: 41px;
+   border-radius: 41px;
+   height: 0;
+   line-height: 0;
+   color: #FFFFFF;
+   font-family: Helvetica;
+   width: 201px;
+   font-size: 29px;
+   font-weight: 600;
+   padding: 31px;
+   background-color: #907FA4;
+   border: solid #000000 1px;
+   text-decoration: none;
+   display: inline-block;
+   cursor: pointer;
+   text-align: center;
+   margin: 20px;
+}
+
+.btn:hover {
+   background: #A6D6D6;
+   border: solid #337FED 0;
+   -webkit-border-radius: 41px;
+   -moz-border-radius: 41px;
+   border-radius: 41px;
+   text-decoration: none;
+}
+
+#subtitle {
+    font-weight: normal;
+}
+
+#top_container {
+    padding-top: 100px;
+    background-color: #e4f9f5;
+    position: relative;
+    margin: 0;
+}
+
+#mountain {
+    display: block;
+    margin: 0 auto;
+}
+
+#top_cloud {
+    position: absolute;
+    right: 300px;
+}
+
+#bottom_cloud {
+    position: absolute;
+    left: 300px;
+    bottom: 300px;
+}
+
+#profile_picture {
+    height: 200px;
+    width: 200px;
+}
+
+#programmer-img {
+    width: 25%;
+    float: left;
+    margin-right: 30px;
+}
+
+#editor-img {
+    width: 25%;
+    float: right;
+    margin-left: 30px;
+}
+
+#trademark {
+    margin-bottom: 0;
+}
